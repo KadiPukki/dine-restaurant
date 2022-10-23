@@ -21,7 +21,8 @@ nav {
     background-image: url(../images/hero-bg-desktop@2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;    
+    background-position: center; 
+    display: flex;   
 }
 
 .logo {
@@ -32,18 +33,19 @@ nav {
 .nav-content {
     color: var(--white);
     width: 30%;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin-left: 5vw;
 }
 
 .nav-content h1 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 300;
+    margin-top: 10vh;
 }
 
 .nav-content p {
     font-weight: 300;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
 }
 
 .btn {
@@ -52,12 +54,17 @@ nav {
     width: 12vw;
     height: 8vh;
     border-style: solid;
-    border-width: 0.1rem;
-    
+    border-width: 0.1rem;  
+    cursor: pointer;  
 }
 
 .nav-content button {
     background-color: var(--black);
     color: var(--white);
     border-color: var(--white);
+}
+
+.btn-nav:hover {
+    background-color: var(--white);
+    color: var(--black);
 }
