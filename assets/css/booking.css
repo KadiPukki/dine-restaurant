@@ -1,0 +1,23 @@
+.booking {
+    width: 100%;
+    height: 85vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+}
+
+.booking-image {
+    width: 50%;
+}
+
+.booking-image img {
+    width: 55%;
+    height: 65vh;
+    margin: 10vh auto auto 5vw;
+
+}
+
+.booking-content {
+    width: 40%;
+    list-style: none;
+}
