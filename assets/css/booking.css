@@ -1,9 +1,9 @@
 .booking {
     width: 100%;
     height: 85vh;
-    background-color: bisque;
     display: flex;
     flex-direction: row;
+    color: var(--black);
 }
 
 .booking-image {
@@ -11,13 +11,43 @@
 }
 
 .booking-image img {
-    width: 55%;
+    width: 56%;
     height: 65vh;
-    margin: 10vh auto auto 5vw;
+    margin: 10vh auto auto 15vw;
 
 }
 
 .booking-content {
     width: 40%;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 15vh;
+}
+
+.booking-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1vh;
+}
+
+.booking p {
+    font-size: 1rem;
+    margin-bottom: 3vh;
+}
+
+.booking-content button {
+    background-color: var(--black);
+    color: var(--white);
+    border-color: var(--white);
+    margin-bottom: 4vh;
+}
+
+.booking-content li {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.booking-list {
+    line-height: 200%;
 }
