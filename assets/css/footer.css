@@ -12,9 +12,37 @@ footer {
     width: 100%;
     background-image: url(../images/ready-bg-desktop@2x.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;    
+}
+
+.footer-image p {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 10vh;    
+}
+
+.footer-image button {
+    background-color: transparent;
+    border-color: var(--white);
+    color: var(--white);
+    margin-top: 10vh;    
 }
 
 .footer-content {
     height: 50%;
     width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.footer-content h2 {
+    margin-top: 10vh;
+}
+
+.footer-content p {
+    font-size: 0.8rem;
+    margin-top: 10vh;
+    text-transform: uppercase;
 }
