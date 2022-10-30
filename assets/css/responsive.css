@@ -1,0 +1,7 @@
+@media(max-width: 970px) {
+    .nav-bar {
+        background-image: url(../images/hero-bg-tablet@2x.jpg);
+        background-size: cover;
+        height: 220vh;
+    }
+}
