@@ -7,14 +7,13 @@
 }
 
 .booking-image {
-    width: 50%;
+    width: 52%;
 }
 
 .booking-image img {
     width: 56%;
     height: 65vh;
     margin: 10vh auto auto 15vw;
-
 }
 
 .booking-content {
@@ -44,11 +43,23 @@
     margin-bottom: 4vh;
 }
 
+.booking-content button:hover {
+    background-color: var(--white);
+    color:var(--black);
+    border-color: var(--black);
+}
+
 .booking-content li {
     font-size: 0.9rem;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .booking-list {
     line-height: 200%;
+}
+
+.booking-list ul:hover {
+    color: var(--golden);
+    cursor: pointer;
 }
