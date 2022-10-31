@@ -14,4 +14,27 @@
     .nav-content button {
         width: 40%;
     }
+
+    /* section: */
+
+    .first-section, .second-section {
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    .image-1, .image-2 {
+        width: 80%;
+    }
+
+    .image-1 img {
+        width:55%;
+        height: 60vh;
+        position: absolute;
+        margin-top: -15vh;
+    }
+
+    .content-1 {
+        width: 30%;
+        margin: 60vh auto 2vh auto;
+    }
 }
