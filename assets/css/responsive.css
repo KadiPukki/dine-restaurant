@@ -4,4 +4,14 @@
         background-size: cover;
         height: 220vh;
     }
+
+    .nav-content {
+        width: 50%;
+        text-align: center;
+        margin: 90vh auto auto auto;
+    }
+
+    .nav-content button {
+        width: 40%;
+    }
 }
