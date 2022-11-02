@@ -52,5 +52,22 @@
         margin: 25vh auto auto auto;
     }
 
+        /* main: */
+
+    main {
+        flex-direction: column;
+        height: 180vh;
+        justify-content: space-between;
+    }
+
+    .main-content1 {
+        margin: 2vh auto 5vh auto;
+        width: 80%;
+    }
+
+    .main-content2 {
+        width: 60%;
+        margin: 5vh auto auto auto;
+    }
 
 }
