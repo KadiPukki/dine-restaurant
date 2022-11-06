@@ -1,0 +1,13 @@
+@media (max-width: 820px) {
+    nav {
+        background-image: url(../images/hero-bg-tablet.jpg);
+    }
+
+    .nav-content {
+        width: 80%;
+        margin: 40vh auto auto auto;
+        text-align: center;
+    }
+    
+    
+}
