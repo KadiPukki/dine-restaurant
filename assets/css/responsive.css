@@ -56,13 +56,14 @@
 
     main {
         flex-direction: column;
-        height: 180vh;
+        height: 160vh;
         justify-content: space-between;
     }
 
     .main-content1 {
-        margin: 2vh auto 5vh auto;
+        margin: 1vh auto 5vh auto;
         width: 80%;
+        height: 60vh;
     }
 
     .main-content2 {
