@@ -1,10 +1,12 @@
 @media (max-width: 820px) {
+    /*nav bar: */
     nav {
         background-image: url(../images/hero-bg-tablet.jpg);
     }
 
     .nav-content {
         width: 80%;
+        height: 50vh;
         margin: 40vh auto auto auto;
         text-align: center;
     }
@@ -12,7 +14,40 @@
     .nav-content h1 {
         width: 100%;
     }
+
     .nav-content p {
         width: 100%;
+    }
+
+    /*section: */
+    .hide {
+        display: none;
+    }
+
+    .first-section, .second-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-1, .content-2 {
+        width: 50%;
+    }
+
+    .content-1 {
+        margin-top: 50vh;
+        background-color: aqua;
+    }
+
+    .first-section {
+        background-color: brown;
+        background-image: url(../images/enjoyable-place-tablet.jpg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: absolute;
+        
+    }
+
+    .content-2 {
+        margin: 20vh auto auto auto;
     }
 }
