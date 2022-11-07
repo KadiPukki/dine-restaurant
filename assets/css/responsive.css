@@ -9,5 +9,10 @@
         text-align: center;
     }
     
-    
+    .nav-content h1 {
+        width: 100%;
+    }
+    .nav-content p {
+        width: 100%;
+    }
 }
