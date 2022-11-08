@@ -7,7 +7,7 @@
     .nav-content {
         width: 80%;
         height: 50vh;
-        margin: 40vh auto auto auto;
+        margin: 50vh auto auto auto;
         text-align: center;
     }
     
@@ -42,8 +42,7 @@
         background-size: auto;
         background-repeat: no-repeat;
         background-position: center top;
-        margin-top: 10vh;
-               
+        margin-top: 5vh;               
     }
 
     .content-2 {
@@ -55,5 +54,25 @@
         background-size: auto;
         background-repeat: no-repeat;
         background-position: center top;
+        margin-top: -8vh;
+    }
+
+    /*main: */
+    main {
+        flex-direction: column;
+    }
+
+    .main-content1 {
+        width: 100%;
+    }
+
+    .main-content1 div {
+        width: 80%;
+        margin-top: 10%;
+    }
+
+    .main-content2 {
+        width: 80%;
+        margin-top: -15vh;
     }
 }
