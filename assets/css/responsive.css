@@ -34,20 +34,26 @@
     }
 
     .content-1 {
-        margin-top: 50vh;
-        background-color: aqua;
+        margin-top: 40vh;
     }
 
     .first-section {
-        background-color: brown;
         background-image: url(../images/enjoyable-place-tablet.jpg);
         background-size: auto;
         background-repeat: no-repeat;
-        background-position: absolute;
-        
+        background-position: center top;
+        margin-top: 10vh;
+               
     }
 
     .content-2 {
-        margin: 20vh auto auto auto;
+        margin: 40vh auto auto auto;
+    }
+
+    .second-section {
+        background-image: url(../images/locally-sourced-tablet.jpg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center top;
     }
 }
