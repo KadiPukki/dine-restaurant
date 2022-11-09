@@ -60,6 +60,7 @@
     /*main: */
     main {
         flex-direction: column;
+        height: 75vh;
     }
 
     .main-content1 {
@@ -75,4 +76,22 @@
         width: 80%;
         margin-top: -15vh;
     }
+
+    /*Booking: */
+    .booking {
+        flex-direction: column;
+        background-image: url(../images/family-gathering-tablet.jpg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center top;
+        margin-top: 5vh;
+        height: 65vh;
+    }
+
+    .booking-content {
+        width: 75%;        
+        align-items: center;
+        margin: 40vh auto auto auto;
+    }
+
 }
