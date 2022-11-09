@@ -94,4 +94,47 @@
         margin: 40vh auto auto auto;
     }
 
+    /*footer: */
+    footer {
+        height: 50vh;
+    }
+    .footer-image {
+        background-image: url(../images/ready-bg-tablet.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+
+@media (max-width: 480px) {
+    /*nav: */
+    nav {
+        background-image: url(../images/hero-bg-mobile.jpg);
+        }
+    
+    .nav-content {
+        margin-top: 40vh;
+    }
+
+    /*section: */
+    .first-section, .second-section {
+        height: 100vh;
+    }
+    .first-section {
+        background-image: url(../images/enjoyable-place-mobile.jpg);
+    }
+
+    .content-1 {
+        width: 80%;
+        margin-top: 55vh;
+    }
+
+    .second-section {
+        background-image: url(../images/locally-sourced-mobile.jpg);
+    }
+
+    .content-2 {
+        width: 80%;
+        margin-top: 55vh;
+    }
 }
